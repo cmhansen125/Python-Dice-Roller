@@ -8,6 +8,6 @@ class guts:
     def get_size(self):
         return self.__size
 
-    def __str__(self):
+    def __str__(self): #returns rolled dice number as a string
         returnString = str(random.randint(1, self.get_size()))
         return returnString
